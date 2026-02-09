@@ -1,9 +1,18 @@
 {
-  "name": "[NEWUI] Gradianto Nature Green",
+  "name": "[Islands] Gradianto Nature Green",
   "author": "thvardhan",
   "dark": true,
   "editorScheme": "/Gradianto_Nature_Green_new.xml",
+  "parentTheme": "Islands Dark",
   "ui": {
+    "Islands": "1",
+    "Island.arc": "20",
+    "Island.borderWidth": "5",
+    "Island.borderColor": "#20403f",
+    "Island.inactiveAlpha": "0.44",
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
     "*": {
       "background": "#20403f",
       "foreground": "#cccece",
@@ -54,7 +63,7 @@
       "default.focusColor": "#4aa259",
       "disabledBorderColor": "#198157",
       "default": {
-        "startBorderColor":"#3a7858",
+        "startBorderColor": "#3a7858",
         "endBorderColor": "#3a7858",
         "startBackground": "#3a7858",
         "endBackground": "#3a7858",
@@ -244,7 +253,6 @@
       "Log.Commit.selectionInactiveBackground": "#004b41",
       "RefLabel.backgroundBase": "#04d9ffff",
       "RefLabel.backgroundBrightness": 0.99
-
     },
     "RunWidget": {
       "background": "#305c4b",
@@ -252,10 +260,9 @@
       "runningBackground": "#3e745f",
       "separatorColor": "#20574f"
     },
-
-    "ScrollBar" : {
-      "hoverThumbBorderColor" : "#39666394",
-      "background" : "#16322cff",
+    "ScrollBar": {
+      "hoverThumbBorderColor": "#39666394",
+      "background": "#16322cff",
       "hoverThumbColor": "#498653ff",
       "hoverTrackColor": "#224039ff",
       "thumb": "#3b6d3fff",
@@ -267,20 +274,20 @@
       "track": "#182d26ff",
       "Transparent": {
         "thumbColor": "#3b6d3fff",
-        "hoverThumbBorderColor" : "#14262694",
+        "hoverThumbBorderColor": "#14262694",
         "hoverThumbColor": "#498653ff",
         "hoverTrackColor": "#224039ff",
         "thumbBorderColor": "#14262694"
       },
-      "Mac" : {
+      "Mac": {
         "Transparent": {
           "thumbColor": "#3b6d3fff",
-          "hoverThumbBorderColor" : "#14262694",
+          "hoverThumbBorderColor": "#14262694",
           "hoverThumbColor": "#498653ff",
           "hoverTrackColor": "#224039ff",
           "thumbBorderColor": "#39666394"
         },
-        "hoverThumbBorderColor" : "#14262694",
+        "hoverThumbBorderColor": "#14262694",
         "hoverThumbColor": "#498653ff",
         "hoverTrackColor": "#224039ff",
         "thumbBorderColor": "#14262694",
@@ -293,7 +300,7 @@
       "selectedButtonColor": "#025248",
       "focusedSelectedButtonColor": "#025248"
     },
-    "MainWindow.Tab" : {
+    "MainWindow.Tab": {
       "selectedForeground": "#eceff1",
       "selectedBackground": "#006448",
       "selectedInactiveBackground": "#1e3b39",
@@ -302,7 +309,6 @@
       "hoverBackground": "#498653ff",
       "borderColor": "#14262694"
     },
-
     "EditorPane.inactiveBackground": "#254a39ff"
   },
   "icons": {

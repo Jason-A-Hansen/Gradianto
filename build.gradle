@@ -1,29 +1,45 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.4.19'
+    id 'org.jetbrains.intellij.platform' version '2.2.1'
 }
 
 group 'thvardhan'
-version '5.5'
+version '6.0'
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+        jetbrainsRuntime()
+        snapshots()
+    }
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    intellijPlatform {
+        local("C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.1.1")
+    }
 }
 
-// See https://github.com/JetBrains/gradle-intellij-plugin/
-intellij {
-    version '2020.1'
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
 }
-patchPluginXml {
-    intellij.updateSinceUntilBuild = false
-    changeNotes """
-        <h3>5.5</h3>
-      <ul>
-        <li>Fixed name issue in new EAP ides</li>
-      </ul>
-      """
+
+intellijPlatform {
+    pluginConfiguration {
+        changeNotes = """
+            <h3>6.0</h3>
+          <ul>
+            <li>Added Islands theme support</li>
+            <li>Fixed name issue in new EAP ides</li>
+          </ul>
+          """
+    }
+}
+
+// Disable building searchable options to avoid launching IDE process which crashes with local installation
+tasks.named("buildSearchableOptions") {
+    enabled = false
 }

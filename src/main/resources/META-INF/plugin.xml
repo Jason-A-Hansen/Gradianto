@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.thvardhan.gradianto</id>
   <name>Gradianto</name>
-  <version>5.5</version>
+  <version>6.0</version>
   <vendor email="thvardhan.god@gmail.com">thvardhan</vendor>
 
   <description><![CDATA[
@@ -13,7 +13,7 @@
   
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="191.0"/>
+  <idea-version since-build="253.0"/>
 
   <depends>com.intellij.modules.lang</depends>
 
