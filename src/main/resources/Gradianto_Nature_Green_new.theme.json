@@ -22,7 +22,7 @@
       "selectionInactiveBackground": "#0465465c",
       "disabledForeground": "#a3a3a3",
       "disabledBackground": "#104942",
-      "inactiveBackground": "#257b71",
+      "inactiveBackground": "#20403f",
       "errorForeground": "#b5b5b5",
       "disabledText": "#adadad",
       "Borders.ContrastBorderColor": "#12312d",
@@ -109,7 +109,6 @@
     "NotificationsToolwindow.newNotification.hoverBackground": "#386d54f8",
     "NotificationsToolwindow.Notification.hoverBackground": "#386d54f8",
     "MainToolbar": {
-      "background": "#254a39ff",
       "Dropdown": {
         "hoverBackground": "#305a44"
       },
@@ -117,8 +116,7 @@
         "borderInsets": "10,10,10,10",
         "hoverBackground": "#305a44",
         "pressedBackground": "#3f795b"
-      },
-      "inactiveBackground": "#214233ff"
+      }
     },
     "EditorTabs": {
       "selectedForeground": "#eceff1",

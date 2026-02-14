@@ -51,8 +51,6 @@
       "hoverBackground": "#324565"
     },
     "MainToolbar": {
-      "inactiveBackground": "#1b2639",
-      "background": "#212f47",
       "Dropdown": {
         "hoverBackground": "#324565"
       },

@@ -22,7 +22,7 @@
       "selectionInactiveBackground": "#3f2042",
       "disabledForeground": "#646464",
       "disabledBackground": "#35233e",
-      "inactiveBackground": "#2c1e31",
+      "inactiveBackground": "#3d214e",
       "errorForeground": "#cd860b",
       "disabledText": "#646464",
       "Borders.ContrastBorderColor": "#292636",
@@ -126,12 +126,12 @@
       "visitedForeground": "#c9a7d2"
     },
     "FileColor": {
-      "Yellow": "#d19a6614",
-      "Green": "#98c37915",
-      "Blue": "#61afef15",
-      "Violet": "#542a4f",
-      "Orange": "#d13c0015",
-      "Rose": "#ae002f20"
+      "Yellow": "#534b2e25",
+      "Green": "#45583725",
+      "Blue": "#26435c25",
+      "Violet": "#542a4f25",
+      "Orange": "#472a1f25",
+      "Rose": "#3d162025"
     },
     "Tree.background": "#342040",
     "Tree": {
@@ -287,7 +287,6 @@
     "NotificationsToolwindow.newNotification.hoverBackground": "#6f3986",
     "NotificationsToolwindow.Notification.hoverBackground": "#6f3986",
     "MainToolbar": {
-      "background": "#4a2b5e",
       "Dropdown": {
         "hoverBackground": "#6f3986"
       },
@@ -295,8 +294,7 @@
         "borderInsets": "10,10,10,10",
         "hoverBackground": "#6f3986",
         "pressedBackground": "#8f53a8"
-      },
-      "inactiveBackground": "#422653"
+      }
     },
     "SegmentedButton": {
       "selectedStartBorderColor": "#2f1f39",

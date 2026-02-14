@@ -22,7 +22,7 @@
       "selectionInactiveBackground": "#48387e",
       "disabledForeground": "#a3a3a3",
       "disabledBackground": "#3f3571",
-      "inactiveBackground": "#52408f",
+      "inactiveBackground": "#282839",
       "errorForeground": "#ebf1f2",
       "disabledText": "#adadad",
       "Borders.ContrastBorderColor": "#221b3c",
@@ -118,7 +118,6 @@
       "shortcutForeground": "#745279"
     },
     "MainToolbar": {
-      "background": "#2c2c3e",
       "Dropdown": {
         "hoverBackground": "#493c6c"
       },
@@ -126,8 +125,7 @@
         "borderInsets": "10,10,10,10",
         "hoverBackground": "#493c6c",
         "pressedBackground": "#55477d"
-      },
-      "inactiveBackground": "#272734"
+      }
     },
     "MemoryIndicator": {
       "usedBackground": "#504480",
@@ -150,12 +148,12 @@
       "visitedForeground": "#ede891"
     },
     "FileColor": {
-      "Yellow": "#d19a6625",
-      "Green": "#98c37925",
-      "Blue": "#61afef25",
+      "Yellow": "#534b2e25",
+      "Green": "#45583725",
+      "Blue": "#26435c25",
       "Violet": "#542a4f25",
-      "Orange": "#d13c0025",
-      "Rose": "#ae002f25"
+      "Orange": "#472a1f25",
+      "Rose": "#3d162025"
     },
     "SearchEverywhere": {
       "Tab": {
